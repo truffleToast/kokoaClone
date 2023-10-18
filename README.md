@@ -1,3 +1,14 @@
+10.10
+- "~"는 span이 p의 형제인데, 바로 뒤에 오지 않을 때 쓸 수 있다.
+- Attribute selectors 특성 선택자
+- 그냥 input과 required input이 있다면, input:required{}를 통해서, required input에만 속성을 적용시킬 수 있다.
+- input{} 을 통해, [input 이름]에 해당하는 input 속성을 따로 줄 수 있다.
+- 여기서, input[placeholder="First name"]은 First name에만 속성을 주지만, input[placeholder~="name"]은 name이 들어가는 모든 input에 속성을 부여할 수 있다.
+- "~="은 name을 포함하고 있다는 의미가 되는 것이다.
+- a[href$=".org"] → "$="는 ".org"로 끝나는 모든 anchor를 선택할 수 있다.
+- attribute selectors를 이용하면, class를 지정할 필요 없이 CSS만으로 각각의 속성을 부여해줄 수 있다.
+
+
 # kokoaClone
 8.31
 - atrribute는 항상 "" 안에 작성.
@@ -10,3 +21,4 @@
 - div 태그는 가장 통용적인 container이다. 대체가 가능하지만, 코드만 보고 어떤 의미인지 파악하기 위해서 semantic 태그를 쓰는 것이다.
 - 모든 태그를 암기 할 필요는 없다. 필요할 때마다 문서를 찾아 적용하면 된다.
 - 모르면 구글링하자
+
