@@ -1,13 +1,32 @@
 # kokoaClone
 
+## 10.12
+-Active, hover, focus, focus-within, visited
 
+-active 해당 요소를 마우스로 클릭했을 때 효과를 적용
+
+-hover 마우스를 해당 요소위에 올렸을 때 
+
+-focus 키보드로 선택되었을 때 효과를 적용
+
+focus-within 부모 요소에게 적용. 자신의 자식 요소 중 하나가 focused되었을 때 효과를 적용
+
+visited 방문한 사이트일 경우에 효과를 적용 a 태그에서만 사용가능
+
+조건을 나열해 여러 상황을 설정할 수 있음.
+예 high-tag:hover low-tag:focus{
+
+}
+인 경우, 상위 요소위에 마우스 커서가 있고, 하위 요소가 focused되었을 때 효과를 적용하게 된다.
+
+and 의 개념으로 받아드리면 될 것 같다.
 
 ## 10.11
 - <h1>추가</h1>: 
 - *= "hello" 라고 하면 hello가 들어만 있다면 
 - ~= "hello" 라고 하면 앞뒤에 공백이 있는 상태에서 hello 인 경우만 선택되요.
 - https://developer.mozilla.org/ko/ 에 내용있음
-## 10.10s
+## 10.10
 - "~"는 형제선택자이나 , 바로 뒤에 오지 않을 때 쓸 수 있다.
 - Attribute selectors 특성 선택자
 - 그냥 input과 required input이 있다면, input:required{}를 통해서, required input에만 속성을 적용시킬 수 있다.
