@@ -3,6 +3,12 @@
 
 
 ## 10.10
+- <h1>추가</h1>: 
+- *= "hello" 라고 하면 hello가 들어만 있다면 
+~= "hello" 라고 하면 앞뒤에 공백이 있는 상태에서 hello 인 경우만 선택되요.
+  <a href="mozila.mdn"/> mozila mdn에 내용있음.
+
+
 - "~"는 형제선택자이나 , 바로 뒤에 오지 않을 때 쓸 수 있다.
 - Attribute selectors 특성 선택자
 - 그냥 input과 required input이 있다면, input:required{}를 통해서, required input에만 속성을 적용시킬 수 있다.
@@ -13,10 +19,8 @@
 - attribute selectors를 이용하면, class를 지정할 필요 없이 CSS만으로 각각의 속성을 부여해줄 수 있다.
 - input:required{ /* required속성을 가지고 있는 input 태그에 대해서 선택자 적용하기 */
 - input[placeholder~="name"]{ /* placeHolder의 값에 "name"을 포함하는 값만 선택할 수 있다. */
-- 추가: 출처 노마드코더 jh
-- *= "hello" 라고 하면 ㅁㄴㅇㄹㄴㅇㄹhelloㅁㄴㅇㄹㄴㅇㄹ 라고 줘도 선택되고요.
-~= "hello" 라고 하면 앞뒤에 공백이 있는 상태에서 hello 인 경우만 선택되요.
-MDN에 내용 있어요
+
+
 
 ## 10.09
 🌼
