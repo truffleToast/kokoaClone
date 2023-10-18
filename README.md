@@ -5,8 +5,8 @@
 ## 10.10
 - <h1>추가</h1>: 
 - *= "hello" 라고 하면 hello가 들어만 있다면 
-~= "hello" 라고 하면 앞뒤에 공백이 있는 상태에서 hello 인 경우만 선택되요.
-  <a href="mozila.mdn"/> mozila mdn에 내용있음.
+- ~= "hello" 라고 하면 앞뒤에 공백이 있는 상태에서 hello 인 경우만 선택되요.
+  <span><a href="mozila.mdn">mozila</a> 에 내용 있음</span>
 
 
 - "~"는 형제선택자이나 , 바로 뒤에 오지 않을 때 쓸 수 있다.
