@@ -11,6 +11,8 @@
 - "~="은 name을 포함하고 있다는 의미가 되는 것이다.
 - a[href$=".org"] → "$="는 ".org"로 끝나는 모든 anchor를 선택할 수 있다.
 - attribute selectors를 이용하면, class를 지정할 필요 없이 CSS만으로 각각의 속성을 부여해줄 수 있다.
+- input:required{ /* required속성을 가지고 있는 input 태그에 대해서 선택자 적용하기 */
+- input[placeholder~="name"]{ /* placeHolder의 값에 "name"을 포함하는 값만 선택할 수 있다. */
 
 ## 10.09
 🌼
