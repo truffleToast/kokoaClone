@@ -1,5 +1,11 @@
 # kokoaClone
 
+## 10.13 
+- :root { /* CSS에 변수 추가 custom property */
+                --main-color :#392fc3;
+                --default-border: 1px solid var(--main-color);
+            }
+
 ## 10.12
 -Active, hover, focus, focus-within, visited
 
