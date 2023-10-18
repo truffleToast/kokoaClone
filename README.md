@@ -1,4 +1,5 @@
-10.10
+# kokoaClone
+## 10.10
 - "~"는 span이 p의 형제인데, 바로 뒤에 오지 않을 때 쓸 수 있다.
 - Attribute selectors 특성 선택자
 - 그냥 input과 required input이 있다면, input:required{}를 통해서, required input에만 속성을 적용시킬 수 있다.
@@ -9,8 +10,8 @@
 - attribute selectors를 이용하면, class를 지정할 필요 없이 CSS만으로 각각의 속성을 부여해줄 수 있다.
 
 
-# kokoaClone
-8.31
+
+## 8.31
 - atrribute는 항상 "" 안에 작성.
 - 어떤 태그는 id라는 arrtribute를 가질 수 있다.ex) div, image, paragraph. header, link...
 - src(source)라는 attribute는 모든 태그가 가질 수 있지 않다.
