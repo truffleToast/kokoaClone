@@ -1,6 +1,9 @@
 # kokoaClone
+
+
+
 ## 10.10
-- "~"는 span이 p의 형제인데, 바로 뒤에 오지 않을 때 쓸 수 있다.
+- "~"는 형제선택자이나 , 바로 뒤에 오지 않을 때 쓸 수 있다.
 - Attribute selectors 특성 선택자
 - 그냥 input과 required input이 있다면, input:required{}를 통해서, required input에만 속성을 적용시킬 수 있다.
 - input{} 을 통해, [input 이름]에 해당하는 input 속성을 따로 줄 수 있다.
@@ -9,9 +12,16 @@
 - a[href$=".org"] → "$="는 ".org"로 끝나는 모든 anchor를 선택할 수 있다.
 - attribute selectors를 이용하면, class를 지정할 필요 없이 CSS만으로 각각의 속성을 부여해줄 수 있다.
 
-
+## 10.09
+🌼
+- div:first div중 첫번째를 뜻한다.
+- div:last div중 마지막 div를 고를 수 있다.
+- div:nth-child("N") n번째 선택자를 고를 수 있다. <strong>even, odd 등도 사용 가능하고 2n+1 , 5n+1 등도 가능하다.</strong>
+- " "은 안에 포함된 자식 선택자를 뜻한다. 블록 내부에 있는 코드를 선택할 때 사용할 수 있다.
+- "+"은 바로 다음 형제 선택자. direct brother selector를 고를 때 사용할 수 있다.
 
 ## 8.31
+🌼
 - atrribute는 항상 "" 안에 작성.
 - 어떤 태그는 id라는 arrtribute를 가질 수 있다.ex) div, image, paragraph. header, link...
 - src(source)라는 attribute는 모든 태그가 가질 수 있지 않다.
