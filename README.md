@@ -6,9 +6,8 @@
 - <h1>추가</h1>: 
 - *= "hello" 라고 하면 hello가 들어만 있다면 
 - ~= "hello" 라고 하면 앞뒤에 공백이 있는 상태에서 hello 인 경우만 선택되요.
-  <span><a href="mozila.mdn">mozila</a> 에 내용 있음</span>
-
-## 10.10
+- https://developer.mozilla.org/ko/ 에 내용있음
+## 10.10s
 - "~"는 형제선택자이나 , 바로 뒤에 오지 않을 때 쓸 수 있다.
 - Attribute selectors 특성 선택자
 - 그냥 input과 required input이 있다면, input:required{}를 통해서, required input에만 속성을 적용시킬 수 있다.
