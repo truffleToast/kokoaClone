@@ -1,5 +1,8 @@
 # kokoaClone
 
+## 10.15 
+KokoaClone 작업시작
+
 ## 10.13 
 - :root { /* CSS에 변수 추가 custom property */
                 -- main-color :#392fc3;
