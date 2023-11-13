@@ -1,5 +1,7 @@
 # kokoaClone
 
+## 10.17 Login.html, Friend.html 생성
+
 ## 10.16
 KokoaClone 작업시작
 
