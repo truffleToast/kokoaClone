@@ -1,5 +1,7 @@
 # kokoaClone
 
+## 10.25 More.html 생성
+
 ## 10.17 Login.html, Friend.html 생성
 
 ## 10.16
